@@ -1,0 +1,46 @@
+{
+  "name": "bem-init",
+  "description": "Generate BEM project scaffolding from a template.",
+  "version": "0.0.0",
+  "homepage": "http://github.com/ilyar/bem-init",
+  "author": "Ilyar Rogov <ilyar.software@gmail.com> (http://github.com/ilyar)",
+  "bugs": {
+    "url": "http://github.com/ilyar/bem-init/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ilyar/bem-init.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+    "bem-init": "bin/bem-init"
+  },
+  "dependencies": {
+    "q": "*",
+    "coa": "*",
+    "update-notifier": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "*",
+    "istanbul": "*",
+    "mocha-as-promised": "*",
+    "mocha-istanbul": "*",
+    "mocha": "*",
+    "coveralls": "*"
+  },
+  "peerDependecies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "make test",
+    "coverage": "make coverage"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/ilyar/bem-init/raw/master/LICENSE"
+    }
+  ]
+}
